@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>home checkpoint</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="secao1">
+            <header id="p1" class="fullscreen">
+                <img id="fundo1" src="img/1x/Ativo 1.png">
+                <div class="fundo-verde">
+                    <div id="top-bar">
+                        <div class="logo">
+                            <img src="img/1x/Ativo 2.png">
+                        </div>
+                        <div class="toggle">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                        <nav id="menu">
+                            <ul>
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="sobrenos1.html">Sobre Nós</a>
+                                </li>
+                                <li>
+                                    <a class="ativo" href="faq1.html">FAQ</a>
+                                </li>
+                                <li>
+                                    <a href="contato.html">Contato</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <!--Fim Menu-->
+                    </div>
+                    <!--Fim top-bar-->
+                    <div id="divulg_produto">
+                        <nav id="menu1">
+                            <ul>
+                                <li>
+                                    <a href="faq1.html">Como adicionar pessoas ao meu grupo?</a>
+                                </li>
+                                <li>
+                                    <a href="faq2.html">Como recuperar minha senha?</a>
+                                </li>
+                                <li>
+                                    <a class="ativo" href="faq3.html">Como mudar de pacote?</a>
+                                </li>
+                                <li>
+                                    <a href="faq4.html">Como criar grupos?</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <div class="apres_produto fullscreen">
+                <div class="card1">
+                    <h2>Resposta</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+                        laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                        ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                        dolor in hendrerit in vulputate velit esse molestie consequat.Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                        ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure
+                        dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+                    
+                </div>
+                <div id="banner">
+                    <img id="fundo2" src="img/1x/Ativo 4.png">
+                </div>
+            </div><!--Fim apres_produto-->
+        </div><!--Fim secao1-->
+        <footer id="menu_inferior">
+                <div class="redes_sociais">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a href="https://twitter.com/" target="_blank">
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                    <a href="https://www.instagram.com/?hl=pt-br" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <p>@Carfel2018</p>
+                <div id="chat">
+                    <a href="/chat/chat.html" target="_blank">      
+                    <i class="fas fa-comments"></i></a> 
+                </div>
+            </footer>
+        <!--Fim menu_inferior-->
+    </div><!--Fim container-->
+       <!--script para ativar menu(toogle) no modo mobile-->
+       <script
+       src="https://code.jquery.com/jquery-3.3.1.js"
+       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+       crossorigin="anonymous"></script>
+       <script>
+           $(document).ready(function(){
+               $('.toggle').click(function(){
+                   $('ul').toggleClass('active');
+               })
+            })
+   </script><!--Fim do script Menu-->
+</body>
+
+</html>

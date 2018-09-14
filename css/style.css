@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    hei
+}
+.flex-container > *{
+    flex: 1;
+}
+/*chat*/
+#chat{
+    width: 100%;
+    max-width: 400px;
+    background: rgb(241, 231, 231);
+    
+
+    /*posicionando*/
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
+#chat header {
+    height: 46px;
+    background: lightgray;
+}
+#chat .perfil-imagem{
+    flex:1;
+    height: 100%;
+    width: 100%;
+}
+#chat .perfil-dados{
+    flex:3;
+}
+#chat .perfil{
+    flex: 5;
+}
+#chat .chat-comandos{
+    flex:1;
+   
+}
+#chat .chat-comandos a{
+    padding: 5px;
+}
+#chat .perfil-imagem img{
+    width: auto;
+    height: 95%;
+    border-radius: 50%;
+    margin-left: 0.5em;
+    margin-top: 0.1em;
+}
+#chat header .flex-container{
+    align-items: center;
+    height: 100%;
+}
+#chat .perfil-nome{
+    font-family: 'Trebuchet MS';
+    font-size: 1em;
+    font-weight: 600;
+}
+#chat main{
+    height: 40vh;
+    overflow-y: auto; 
+    padding: .4em;
+    display: flex;
+    flex-direction: column;
+}
+#chat .chat-msg{
+    background: rgb(251, 251, 252);
+    margin: .5em;
+    padding: 0.5em;
+    border-radius: 1em;
+    width: 85%;
+    box-shadow: 0 0 5px #999;
+}
+#chat .chat-msg-enviada{
+    align-self: flex-end;
+    background:#1DB9DD;
+}
+
+#chat .mensagem {
+    flex: 7;
+}
+#chat .mensagem textarea{
+    width: 100%;
+    resize: none
+}
+#chat footer{
+    align-items: center;
+}
+#chat footer i {
+    flex-basis: 32px;
+    text-align: center;
+}
+.fas {
+    color: #067b8c;
+}
+.far {
+    color: #067b8c;
+}
